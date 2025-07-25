@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Black Gold Power</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Black Gold Power Logo" class="logo" />
+    <nav>
+      <select id="languageSwitcher">
+        <option value="en">English</option>
+        <option value="es">Español</option>
+      </select>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h1 data-en="About Us" data-es="Sobre Nosotros">About Us</h1>
+      <p data-en="Black Gold Power is formed by a team with over 30 years of experience in the energy market."
+         data-es="Black Gold Power está formada por un equipo con más de 30 años de experiencia en el mercado energético.">
+         Black Gold Power is formed by a team with over 30 years of experience in the energy market.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2 data-en="Contact Us" data-es="Contáctanos">Contact Us</h2>
+      <form action="https://formspree.io/f/mwkgyrrz" method="POST">
+        <label data-en="Your Name" data-es="Tu Nombre">Your Name</label>
+        <input type="text" name="name" required />
+        <label data-en="Your Email" data-es="Tu Correo">Your Email</label>
+        <input type="email" name="email" required />
+        <label data-en="Message" data-es="Mensaje">Message</label>
+        <textarea name="message" required></textarea>
+        <button type="submit" data-en="Send" data-es="Enviar">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Black Gold Power. All rights reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
